@@ -1,0 +1,157 @@
+*{
+	margin:0;
+	padding:0;
+    font-family:'Times New Roman', Times, serif;
+}
+
+header{
+    background-color: #C04000;
+    text-align: center;
+    height: 70px;
+}
+
+header p a{
+    text-decoration: none;
+    text-align: center;
+    color:white;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: -8px;
+}
+
+header p:first-child{
+    border:3px solid coral !important;
+    display: block;
+    width:150px;
+    height: 40px;
+    float: left;
+    margin-top:4px;
+    margin-left: 20px;
+    padding:5px;
+    border-radius: 10px;
+}
+
+header p:last-child{
+    border:3px solid coral !important;
+    display: block;
+    width:350px;
+    height: 50px;
+    float: right;
+    margin-top:-70px;  
+    margin-right: 20px;
+    padding:-5px;
+    border-radius: 10px;
+}
+
+header .first:hover{
+    background-color: white;
+    border:3px solid black !important;
+}
+
+header .second:hover{
+    background-color: white;
+    border:3px solid black !important;
+}
+
+.p1{
+    text-transform: uppercase;
+    margin-right: 350px;
+    font-size: 40px;
+    color:white;
+}
+
+.p1 img{
+    margin-top:-8px;
+}
+
+.coloured-section
+{
+	text-align: center;
+}
+
+.coloured-section .send .btn{
+    margin-top:7px;
+    margin-bottom:15px;
+    margin-right: -350px;
+    background-color:burlywood;
+    border:3px solid #C04000 !important;
+    font-weight: bold;
+    font-size:20px;
+    padding:1px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor:pointer;
+}
+
+.coloured-section .send .btn:hover{
+    background-color: white;
+    border:3px solid black !important;
+}
+
+.coloured-section .send .btnl{
+    background-color:burlywood;
+    border:3px solid #C04000 !important;
+    font-weight: bold;
+    font-size:20px;
+    padding:5px;
+    margin-left: -13px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color:black;
+}
+
+.coloured-section .send .btnl:hover{
+    background-color: white;
+    border:3px solid black !important;
+}
+
+.buttons .move p{
+    border:3px solid #3D0C02;
+    width: 300px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.container{
+    width:850px;
+    padding:20px;
+    margin:auto;
+    margin-top: -5px;
+    border-radius:15px;
+    border:3px solid #3D0C02;
+}
+
+.container .table-responsive table thead .table-danger th {
+    border:3px solid #C04000 !important;
+    font-size:20px;
+    font-weight: bold;
+    width:150px;
+    background-color:burlywood;
+    text-transform: uppercase;
+}
+
+.container .table-responsive table tbody .table-light td{
+    font-size:20px;
+    width:200px;
+}
+
+.container .table-responsive table tbody .table-info td{
+    border:3px solid coral !important;
+    font-size:20px;
+    width:200px;
+}
+
+.container .table-responsive table tbody .table-info :hover{
+    background-color: black !important;
+    color:white !important;
+}
+.container .table-responsive table tbody .table-light :hover{
+    background-color: black !important;
+    color:white !important;
+}
+.container .table-responsive .table-info{
+    text-align: center;
+    height:10px;
+}
